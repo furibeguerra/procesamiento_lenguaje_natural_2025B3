@@ -6,8 +6,11 @@ El repositorio de la clase se encuentra completamente disponible en el link adju
 ## Estructura del repositorio
 
 desafio-1/: Vectorización, Similitud y Clasificación de Texto
+
 desafio-2/: Word Embeddings usando Word2Vec
+
 desafio-3/: Modelo de Lenguaje con Tokenización por Caracteres
+
 desafio-4/: Bot de Preguntas y Respuestas (QA) con Encoder/Decoder
 
 ## Desafio 1 - Vectorización, Similitud y Clasificación de Texto
