@@ -1,5 +1,7 @@
 # Procesamiento Lenguaje Natural 2025B3
 
+
+
 Este es el repositorio para el planteamiento y desarrollo de los ejercicios propuestos en la asignatura de Procesamiento de Lenguaje Natural de la Universidad de Buenos Aires.
 El repositorio de la clase se encuentra completamente disponible en el link adjunto: https://github.com/FIUBA-Posgrado-Inteligencia-Artificial/procesamiento_lenguaje_natural/tree/main 
 
@@ -37,4 +39,7 @@ Para su desarrollo, se entrenó una red neuronal LSTM para la generación de tex
 El objecto es utilizar datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés. Se construirá un BOT para responder a preguntas del usuario (QA).
 
 Se creó un sistema de preguntas y respuestas empleando una arquitectura seq2seq (sequence-to-sequence). El proceso consistió en el preprocesamiento de pares de preguntas y respuestas, seguido de la implementación de un modelo Encoder-Decoder. Para optimizar el entrenamiento, se utilizó la técnica de teacher forcing. El resultado fue un sistema capaz de generar automáticamente respuestas coherentes a partir de preguntas, demostrando la capacidad del modelo para la compresión de contexto y la generación secuencial de texto.
+
+## Estudiante:
+:octocat: Fabian Andres Uribe Guerra
 
