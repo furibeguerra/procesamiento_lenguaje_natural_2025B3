@@ -5,7 +5,7 @@
 Este es el repositorio para el planteamiento y desarrollo de los ejercicios propuestos en la asignatura de Procesamiento de Lenguaje Natural de la Universidad de Buenos Aires.
 El repositorio de la clase se encuentra completamente disponible en el link adjunto: https://github.com/FIUBA-Posgrado-Inteligencia-Artificial/procesamiento_lenguaje_natural/tree/main 
 
-## Estructura del repositorio
+## Estructura del repositorio 🤖
 
 ```desafio-1/: Vectorización, Similitud y Clasificación de Texto ```
 
