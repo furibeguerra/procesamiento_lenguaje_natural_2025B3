@@ -5,7 +5,7 @@ El repositorio de la clase se encuentra completamente disponible en el link adju
 
 ## Estructura del repositorio
 
-desafio-1/: Vectorización, Similitud y Clasificación de Texto
+```desafio-1/: Vectorización, Similitud y Clasificación de Texto ```
 
 desafio-2/: Word Embeddings usando Word2Vec
 
@@ -15,11 +15,9 @@ desafio-4/: Bot de Preguntas y Respuestas (QA) con Encoder/Decoder
 
 ## Desafio 1 - Vectorización, Similitud y Clasificación de Texto
 
-1. Vectorizar documentos. Tomar 5 documentos al azar y medir similaridad con el resto de los documentos. Estudiar los 5 documentos más similares de cada uno analizar si tiene sentido la similaridad según el contenido del texto y la etiqueta de clasificación.
+El objetivo es Vectorizar documentos. Tomar 5 documentos al azar y medir similaridad con el resto de los documentos. Estudiar los 5 documentos más similares de cada uno analizar si tiene sentido la similaridad según el contenido del texto y la etiqueta de clasificación.
 
-2. Entrenar modelos de clasificación Naïve Bayes para maximizar el desempeño de clasificación (f1-score macro) en el conjunto de datos de test. Considerar cambiar parámteros de instanciación del vectorizador y los modelos y probar modelos de Naïve Bayes Multinomial y ComplementNB.
-
-3. Transponer la matriz documento-término. De esa manera se obtiene una matriz término-documento que puede ser interpretada como una colección de vectorización de palabras. Estudiar ahora similaridad entre palabras tomando 5 palabras y estudiando sus 5 más similares. La elección de palabras no debe ser al azar para evitar la aparición de términos poco interpretables, elegirlas "manualmente".
+Para su desarrollo, se optimizó un modelo de clasificación Naïve Bayes probando las variantes Multinomial y ComplementNB, con el objetivo de maximizar el f1-score macro en un conjunto de prueba. Finalmente, se exploró la similitud entre palabras al transponer la matriz documento-término a una matriz término-documento, lo que permitió analizar las 5 palabras más similares a 5 términos seleccionados manualmente, validando así la proximidad contextual de las representaciones vectoriales.
 
 ## Desafio 2 - Word Embeddings usando Word2Vec
 
@@ -27,14 +25,14 @@ El objetivo es emplear Gensim para entrenar un modelo de vectores de palabras (w
 
 Se desarrolló un modelo de Word2Vec con la arquitectura Skip-gram para generar representaciones semánticas de palabras. El proceso incluyó el preprocesamiento del corpus de texto de Gutenberg y el entrenamiento del modelo para capturar relaciones contextuales. El resultado final fue la obtención de embeddings que permiten analizar las relaciones de significado entre palabras en un espacio vectorial, demostrando el concepto de semántica distribuida.
 
-##Desafío 3 - Modelo de Lenguaje con Tokenización por Caracteres
+## Desafío 3 - Modelo de Lenguaje con Tokenización por Caracteres
 
 Para este desafio el objetivo principal es entrenar un modelo de lenguaje básico carácter por carácter.
 
 Para su desarrollo, se entrenó una red neuronal LSTM para la generación de texto a nivel de carácter. El proceso incluyó la tokenización de un dataset de texto, la preparación de secuencias de entrada y salida, y el entrenamiento del modelo. La red, compuesta por una capa de Embedding y una capa LSTM, fue capaz de aprender la estructura y las dependencias del texto para predecir y generar nuevos caracteres de forma autónoma a partir de una secuencia inicial.
 
 
-Desafío 4 - Bot de Preguntas y Respuestas (QA) con Encoder/Decoder
+## Desafío 4 - Bot de Preguntas y Respuestas (QA) con Encoder/Decoder
 
 El objecto es utilizar datos disponibles del challenge ConvAI2 (Conversational Intelligence Challenge 2) de conversaciones en inglés. Se construirá un BOT para responder a preguntas del usuario (QA).
 
